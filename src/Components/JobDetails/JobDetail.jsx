@@ -1,5 +1,7 @@
 import React from 'react'
 import { useLoaderData, useLocation } from 'react-router-dom'
+import AppliedJobs from '../AppliedJobs/AppliedJobs'
+import { addToDb,getShoppingCart } from '../../../public/fakedb'
 
 const JobDetail = () => {
     const { state } = useLocation()
@@ -7,31 +9,6 @@ const JobDetail = () => {
     const joblist = useLoaderData()
 
 
-
-    const addToDb = id => {
-        let shoppingCart = getShoppingCart();
-        // add quantity
-        const quantity = shoppingCart[id];
-        if (!quantity) {
-            shoppingCart[id] = 1;
-        }
-        else {
-            const newQuantity = quantity + 1;
-            shoppingCart[id] = newQuantity;
-        }
-        localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
-    }
-    // console.log();
-    const getShoppingCart = () => {
-        let shoppingCart = {};
-
-        //get the shopping cart from local storage
-        const storedCart = localStorage.getItem('shopping-cart');
-        if (storedCart) {
-            shoppingCart = JSON.parse(storedCart);
-        }
-        return shoppingCart;
-    }
 
 
 
