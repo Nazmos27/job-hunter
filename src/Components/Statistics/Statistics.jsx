@@ -27,7 +27,7 @@ export const data = {
 
 const Statistics = () => {
   return (
-    <div>
+    <div className='my-32 mx-40'>
       <Pie data={data}></Pie>
     </div>
   )
