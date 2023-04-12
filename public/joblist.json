@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "job_title":"Technical Database Engineer",
+        "company":"Goggle LLC",
+        "img":"../public/Logo/google-1-1 1-1.png",
+        "nature":"Remote"
+    },
+    {
+        "id":2,
+        "job_title":"Senior Product Designer",
+        "company":"Netflix",
+        "img":"../public/Logo/netflix-4 1.png",
+        "nature":"On Site"
+    },
+    {
+        "id":3,
+        "job_title":"Software Engineer",
+        "company":"Tesla",
+        "img":"../public/Logo/tesla-9 1.png",
+        "nature":"On site"
+    },
+    {
+        "id":4,
+        "job_title":"Data Scientist",
+        "company":"Goggle LLC",
+        "img":"../public/Logo/youtube.png",
+        "nature":"Remote"
+    },
+    {
+        "id":5,
+        "job_title":"Senior Web Developer",
+        "company":"Twitter",
+        "img":"../public/Logo/twitter.png",
+        "nature":"On site"
+    },
+    {
+        "id":6,
+        "job_title":"Creative Designer",
+        "company":"Goggle LLC",
+        "img":"../public/Logo/spotify.png",
+        "nature":"Remote"
+    }
+]
