@@ -15,11 +15,11 @@ const JobDetailCard = ({item}) => {
         <img className='h-10 w-28' src={img} alt="" />
         <h1 className='text-xl font-semibold'>{job_title}</h1>
         <p className='text-sm text-gray-500 font-semibold'>{company}</p>
-        <div className='flex gap-3'>
+        <div className='md:flex gap-3'>
             <button className='border-2 border-gray-400 rounded-sm px-2 py-1 text-sm text-zinc-600 mt-2'>{nature}</button>
             <button className='border-2 border-gray-400 rounded-sm px-2 py-1 text-sm text-zinc-600 mt-2'>Full Time</button>
         </div>
-        <div className='flex gap-5 py-3'>
+        <div className='md:flex gap-5 py-3'>
             <div className='flex items-center'>
                 <img src="../../../public/Icons/Location Icon.png" alt="" />
                 <p className='text-sm text-gray-800 font-semibold'>Dhaka,Bangladesh</p>

@@ -9,7 +9,7 @@ export const data = {
     datasets: [
       {
         label: 'Marks of Assignment :',
-        data: [60, 60, 60, 59, 60, 60, 60, 60],
+        data: [60, 60, 30, 60, 60, 30, 60, 46],
         backgroundColor: [
           'rgba(255, 99, 132, 0.2)',
           'rgba(54, 162, 235, 0.2)',
@@ -27,7 +27,7 @@ export const data = {
 
 const Statistics = () => {
   return (
-    <div className='my-32 mx-40'>
+    <div className='md:my-32 md:mx-40'>
       <Pie data={data}></Pie>
     </div>
   )

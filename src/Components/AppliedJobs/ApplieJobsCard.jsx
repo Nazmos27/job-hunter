@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
-const ApplieJobsCard = ({ data, value }) => {
-    console.log(data, value);
+const ApplieJobsCard = ({ data, value }) => { 
+    
     const info = data.find(item => item.id == value)
 
 
