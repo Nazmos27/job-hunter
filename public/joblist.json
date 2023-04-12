@@ -4,41 +4,59 @@
         "job_title":"Technical Database Engineer",
         "company":"Goggle LLC",
         "img":"../public/Logo/google-1-1 1-1.png",
-        "nature":"Remote"
+        "nature":"Remote",
+        "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        
+        "Job_Responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members."
     },
     {
         "id":2,
         "job_title":"Senior Product Designer",
         "company":"Netflix",
         "img":"../public/Logo/netflix-4 1.png",
-        "nature":"On Site"
+        "nature":"On Site",
+        "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        
+        "Job_Responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members."
     },
     {
         "id":3,
         "job_title":"Software Engineer",
         "company":"Tesla",
         "img":"../public/Logo/tesla-9 1.png",
-        "nature":"On site"
+        "nature":"On site",
+        "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        
+        "Job_Responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members."
     },
     {
         "id":4,
         "job_title":"Data Scientist",
         "company":"Goggle LLC",
         "img":"../public/Logo/youtube.png",
-        "nature":"Remote"
+        "nature":"Remote",
+        "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+
+        "Job_Responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members."
     },
     {
         "id":5,
         "job_title":"Senior Web Developer",
         "company":"Twitter",
         "img":"../public/Logo/twitter.png",
-        "nature":"On site"
+        "nature":"On site",
+        "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        
+        "Job_Responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members."
     },
     {
         "id":6,
         "job_title":"Creative Designer",
         "company":"Goggle LLC",
         "img":"../public/Logo/spotify.png",
-        "nature":"Remote"
+        "nature":"Remote",
+        "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        
+        "Job_Responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members."
     }
 ]
