@@ -4,6 +4,7 @@
         "job_title":"Technical Database Engineer",
         "company":"Goggle LLC",
         "img":"../public/Logo/google-1-1 1-1.png",
+        "logo":"../public/all images/google-1-1 1.png",
         "nature":"Remote",
         "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         
@@ -14,6 +15,7 @@
         "job_title":"Senior Product Designer",
         "company":"Netflix",
         "img":"../public/Logo/netflix-4 1.png",
+        "logo":"../public/all images/netflix-4 1.png",
         "nature":"On Site",
         "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         
@@ -24,6 +26,7 @@
         "job_title":"Software Engineer",
         "company":"Tesla",
         "img":"../public/Logo/tesla-9 1.png",
+        "logo":"../public/all images/tesla-9 1.png",
         "nature":"On site",
         "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         
@@ -34,6 +37,7 @@
         "job_title":"Data Scientist",
         "company":"Goggle LLC",
         "img":"../public/Logo/youtube.png",
+        "logo":"../public/all images/youtube-logo-51CDA55827-seeklogo.com.png",
         "nature":"Remote",
         "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
 
@@ -42,8 +46,9 @@
     {
         "id":5,
         "job_title":"Senior Web Developer",
-        "company":"Twitter",
-        "img":"../public/Logo/twitter.png",
+        "company":"Air BNb",
+        "img":"../public/Logo/Airbnb_Logo_Bélo.png",
+        "logo":"../public/all images/Group 10021.png",
         "nature":"On site",
         "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         
@@ -54,6 +59,7 @@
         "job_title":"Creative Designer",
         "company":"Goggle LLC",
         "img":"../public/Logo/spotify.png",
+        "logo":"../public/all images/spotifyimg.png",
         "nature":"Remote",
         "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         
