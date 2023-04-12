@@ -1,7 +1,6 @@
 import React from 'react'
 import { useLoaderData, useLocation } from 'react-router-dom'
-import AppliedJobs from '../AppliedJobs/AppliedJobs'
-import { addToDb,getShoppingCart } from '../../../public/fakedb'
+import { addToDb } from '../../../public/fakedb'
 
 const JobDetail = () => {
     const { state } = useLocation()
