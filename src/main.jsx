@@ -12,11 +12,13 @@ import Blogs from './Components/Blogs/Blogs';
 import Application from './Components/Application/Application';
 import Home from './Components/Home/Home';
 import JobDetail from './Components/JobDetails/JobDetail';
+import Errorpage from './Errorpage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    errorElement:<Errorpage></Errorpage>,
     children:[
         {
           path:'/',
