@@ -27,7 +27,7 @@ const Home = () => {
     // console.log(jobLists);
     return (
         <div className='mx-20'>
-            <div className='md:flex flex flex-col-reverse'>
+            <div className='md:flex flex md:flex-row flex-col-reverse'>
                 <div className='md:mt-20 md:ml-10  space-y-10'>
                     <h1 className='md:text-5xl text-2xl font-semibold'>One step <br />Closer To Your <br /> Dream Job</h1>
                     <p className=' md:mr-6'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>

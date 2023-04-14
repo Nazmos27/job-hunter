@@ -10,16 +10,14 @@ const AppliedJobs = () => {
   // console.log(jobData);
   
   // console.log(remote);
-  const [cart,setCart] = useState(jobData)
-  const [remoteData,setRemoteData] = useState(jobData)
-  useEffect(() => {
-    const remote = jobData.filter(item => item.nature === 'Remote')
-    setRemoteData(remote)
-  } ,[])
-  const natureBtn = () => {
-    setCart(remoteData)
-    console.log(remoteData);
-  }
+  
+  // const [remoteData,setRemoteData] = useState(jobData)
+
+  // const natureBtn = () => {
+  //   const remote = jobData.filter(item => item.nature == 'Remote')
+  //   setRemoteData(remote)
+  //   console.log(remoteData);
+  // }
   
   
 

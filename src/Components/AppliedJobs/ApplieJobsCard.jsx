@@ -4,7 +4,6 @@ const ApplieJobsCard = ({ data, value }) => {
     
     const info = data.find(item => item.id == value)
     console.log(info);
-    
 
 
     return (

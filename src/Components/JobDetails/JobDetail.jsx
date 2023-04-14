@@ -14,7 +14,9 @@ const JobDetail = () => {
 
 
     return (
-        <div className='flex flex-row mx-28 py-36'>
+        <div>
+            <h1 className='text-3xl font-semibold text-center mt-20'>Job Details</h1>
+            <div className='flex flex-row mx-28 py-36'>
             <div className='space-y-6 basis-2/3'>
                 <p><b>Job_Description:</b> {joblist[index - 1].Job_Description}</p>
                 <p><b>Job_Responsibility:</b> {joblist[index - 1].Job_Responsibility}</p>
@@ -49,6 +51,7 @@ const JobDetail = () => {
                 </div>
                 <button onClick={() => addToDb(joblist[index - 1].id)} className='bg-blue-500 px-6 py-2 rounded-md text-white font-semibold'>Apply Now</button>
             </div>
+        </div>
         </div>
     )
 }

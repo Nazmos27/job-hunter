@@ -7,7 +7,8 @@ const Errorpage = () => {
   return (
     <div className='flex flex-col justify-center items-center mt-60'>
       <h1 className='text-3xl font-semibold text-red-600'>Oops!</h1>
-      <p>Sorry, an unexpected error has occurred.</p>
+      <p className='text-2xl'>404</p>
+      <p className='text-2xl italic'>Not Found</p>
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
