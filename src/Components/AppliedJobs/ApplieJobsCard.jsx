@@ -3,12 +3,14 @@ import React, { useEffect, useState } from 'react'
 const ApplieJobsCard = ({ data, value }) => { 
     
     const info = data.find(item => item.id == value)
+    console.log(info);
+    
 
 
     return (
         <div className='flex border-[1px] rounded-md border-gray-400 mx-32 my-6 justify-between'>
             <div className='flex gap-5 p-4'>
-                <img className='h-40 w-40 px-4 py-14 rounded-md border-[1px] bg-gray-100  border-black' src={info.logo} alt="" />
+                <img className='h-40 w-40 px-4 py-14 rounded-md border-[1px] bg-gray-100  border-black' src={info.company_logo} alt="" />
                 <div className='my-auto'>
                 <h1 className='text-xl font-semibold'>{info.job_title}</h1>
                 <p className='text-sm text-gray-500 font-semibold'>{info.company}</p>

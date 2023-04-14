@@ -37,11 +37,11 @@ const JobDetail = () => {
                 <hr className='border-[1px] border-gray-400 my-2' />
                 <div className='flex items-center gap-2'>
                     <img src="../../../public/Icons/Frame-2.png" alt="" />
-                    <p className='text-sm text-gray-800 font-semibold'><span className='text-sm font-bold'>Phone:</span> 01789 512 433</p>
+                    <p className='text-sm text-gray-800 font-semibold'><span className='text-sm font-bold'>Phone: </span> {joblist[index - 1].phone}</p>
                 </div>
                 <div className='flex items-center gap-2'>
                     <img src="../../../public/Icons/Frame-3.png" alt="" />
-                    <p className='text-sm text-gray-800 font-semibold'><span className='text-sm font-bold'>Email:</span> nazmos789@gmail.com</p>
+                    <p className='text-sm text-gray-800 font-semibold'><span className='text-sm font-bold'>Email:</span> {joblist[index - 1].email}</p>
                 </div>
                 <div className='flex items-center gap-2'>
                     <img src="../../../public/Icons/Frame-4.png" alt="" />
