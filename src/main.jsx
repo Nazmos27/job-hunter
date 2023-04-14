@@ -9,7 +9,7 @@ import './index.css'
 import Statistics from './Components/Statistics/Statistics';
 import AppliedJobs from './Components/AppliedJobs/AppliedJobs';
 import Blogs from './Components/Blogs/Blogs';
-import Application from './Components/Application/Application';
+
 import Home from './Components/Home/Home';
 import JobDetail from './Components/JobDetails/JobDetail';
 import Errorpage from './Errorpage';
@@ -43,10 +43,7 @@ const router = createBrowserRouter([
           path:'blogs',
           element:<Blogs></Blogs>
         },
-        {
-          path:'applying',
-          element:<Application></Application>
-        },
+        
     ],
   },
   
